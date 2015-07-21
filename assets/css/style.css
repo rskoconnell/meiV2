@@ -1870,6 +1870,11 @@ Client logos
 
 .client-logo {
 	opacity: .5;
+	width: 100px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
 }
 
 .client-logo:hover {
