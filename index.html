@@ -18,6 +18,36 @@
 	<link href="assets/css/owl.carousel.css" rel="stylesheet">
 	<link href="assets/css/animate.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet">
+
+	<style>
+	$lg: 580px;
+	html, 
+	#instafeed {
+  		max-width:1080px;
+  		width: 90%;
+  		margin: auto;
+  		display: flex;
+  		flex-wrap: wrap;
+  
+  	a {
+    	display: flex;
+    	align-items: center;
+    	position: relative;
+    	width: 25%;
+    	background: white;
+    
+    	@media only screen and (min-width: $lg) {
+      	width: 30%;
+    }
+    
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+</style>
+
 </head>
 <body>
 
@@ -47,9 +77,9 @@
 					<li><a href="#works" class="section-scroll">Selected Projects</a></li>
 					<li><a href="portfolio.html" class="section-scroll">Portfolio</a></li>
 					<li><a href="news.html" class="section-scroll">News</a></li>
-					<li><a href="#clients" class="section-scroll">Clients</a></li>
 					<li><a href="about.html">About Us</a></li>
 					<li><a href="#contact" class="section-scroll">Contact</a></li>
+					<li><a href="https://www.instagram.com/mei_architects/" target="new"><i class="fa fa-instagram"></i></a></li>
 				</ul>
 			</div>
 	
@@ -258,265 +288,43 @@
 					<div class="col-sm-6 col-md-4 col-lg-2">
 
 						<div class="callout-btn-box">
-							<a href="portfolio.html" class="btn btn-w btn-round">View our full portfolio</a>
+							<a href="portfolio.html" class="btn btn-w btn-round">View our portfolio</a>
 						</div>
 
 					</div>
 
 				</div><!-- .row -->
+
 
 			</div>
 		</section>
-		<!-- Callout end -->
+	
 
-		<!-- Divider -->
-		<hr class="divider-w">
-		<!-- Divider -->
-
-
-		<!-- Latest blog posts start -->
-		<section id="news" class="module">
+	<section class="module-small bg-dark">
 			<div class="container">
-
-				<div class="row">
-
-					<div class="col-sm-6 col-sm-offset-3">
-
-						<h2 class="module-title font-alt">News</h2>
-						<div class="module-subtitle font-serif">
-							Our Clients, Our Communities and Our People in action.
-						</div>
-
+				<div class="row" style="margin-bottom: 40px">
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<div id="instafeed"></div>
 					</div>
-
-				</div><!-- .row -->
-
-				<div class="row multi-columns-row post-columns">
-
-					<!-- Post item start -->
-					<div class="col-sm-6 col-md-4 col-lg-4">
-
-						<div class="post mb-20">
-							<div class="post-thumbnail">
-								<a href="project-104.html"><img src="assets/images/news/2018-10-04-1.jpg" alt=""></a>
-							</div>
-							<div class="post-header font-alt">
-								<h2 class="post-title">Project Completion: Martinez OPC</h2>
-								<div class="post-meta">
-									October 4th 2018
-								</div>
-							</div>
-							<div class="post-entry">
-								<p>Our renovation of the Building 19 Outpatient Clinic at VA Martinez has been finished and photographed.</p>
-							</div>
-							<div class="post-more">
-								<a href="project-104.html" class="more-link">Read More</a>
-							</div>
-						</div>
-
-					</div>
-					<!-- Post item end -->
-
-					<!-- Post item start -->
-					<div class="col-sm-6 col-md-4 col-lg-4">
-
-								<div class="post">
-
-									<div class="post-thumbnail">
-										<a href="news/2017-05-08.html"><img src="assets/images/news/2017-05-08-1.jpg" alt=""></a>
-									</div>
-
-									<div class="post-header font-alt">
-										<h2 class="post-title"><a href="news/2015-05-08.html">Michael Wang named as Principal</a></h2>
-										<div class="post-meta">
-											May 8th 2017
-										</div>
-									</div>
-
-									<div class="post-entry">
-										<p>MEI Architects is excited to announce that architect Michael Wang has been named a Principal. With almost forty years of experience...</p>
-									</div>
-
-									<div class="post-more">
-										<a href="news/2017-05-08.html" class="more-link">Read more</a>
-									</div>
-
-								</div>
-
-							</div>
-							<!-- Post item end -->
-
-					<!-- Post item start -->
-					<div class="col-sm-6 col-md-4 col-lg-4">
-
-						<div class="post mb-20">
-							<div class="post-thumbnail">
-								<a href="news/2017-03-17.html"><img src="assets/images/news/2017-03-17-1.jpg" alt=""></a>
-							</div>
-							<div class="post-header font-alt">
-								<h2 class="post-title">Nearing Completion</h2>
-								<div class="post-meta">
-									March 17th 2017
-								</div>
-							</div>
-							<div class="post-entry">
-								<p>The Rehabilitation and Recreation Center at Menlo Park is nearing completion.</p>
-							</div>
-							<div class="post-more">
-								<a href="news/2017-03-17.html" class="more-link">Read More</a>
-							</div>
-						</div>
-
-					</div>
-					<!-- Post item end -->
-
-				</div><!-- .row -->
-
+				</div>
 			</div>
-		</section>
-		<!-- Latest blog posts end -->
+	</section>
 
 		<!-- Divider -->
-		<hr class="divider-w">
+		<!--hr class="divider-w"-->
 		<!-- Divider -->
 
-		<!-- Features start -->
-		<section id="clients" class="module">
-			<div class="container">
 
-				<div class="row">
-
-					<div class="col-sm-6 col-sm-offset-3">
-
-						<h2 class="module-title font-alt">Our Clients</h2>
-						<div class="module-subtitle font-serif">
-							Over the past 12 years MEI Architects has been honored to provide architecture and design services to a host of excellent organizations, including:
-						</div>
-
-					</div>
-
-				</div><!-- .row -->
-
-				<div class="row multi-columns-row">
-
-					<!-- Features start -->
-					<div class="col-sm-6 col-md-3 col-lg-3">
-
-						<div class="features-item">
-								<div class="client-logo">
-									<img src="assets/images/logos/sf.jpg" alt="">
-								</div>
-							<h3 class="features-title font-alt">City and County of<br /> San Francisco</h3>
-							Department of Public Works<br />
-							Department of Public Health<br />
-							Mayor's Office of Housing<br />
-						</div>
-
-					</div>
-					<!-- Features end -->
-
-					<!-- Features start -->
-					<div class="col-sm-6 col-md-3 col-lg-3">
-
-						<div class="features-item">
-							<div class="client-logo">
-								<img src="assets/images/logos/va.jpg" alt="">
-							</div>
-							<h3 class="features-title font-alt">Department of <br />Veterans Affairs</h3>
-							Sierra Pacific Network (VISN 21)<br />
-						</div>
-
-					</div>
-					<!-- Features end -->
-
-					<!-- Features start -->
-					<div class="col-sm-6 col-md-3 col-lg-3">
-
-						<div class="features-item">
-							<div class="client-logo">
-								<img src="assets/images/logos/va2.png" alt="">
-							</div>
-							<h3 class="features-title font-alt">VA Palo Alto <br />Healthcare System</h3>
-							Palo Alto Campus<br />
-							Monterey Campus<br />
-							Menlo Park Campus<br />
-						</div>
-
-					</div>
-					<!-- Features end -->
-
-					<!-- Features start -->
-					<div class="col-sm-6 col-md-3 col-lg-3">
-
-						<div class="features-item">
-							<div class="client-logo">
-								<img src="assets/images/logos/ucsf.jpg" alt="">
-							</div>
-							<h3 class="features-title font-alt">University of California <br />San Francisco</h3>
-							
-						</div>
-
-					</div>
-					<!-- Features end -->
-
-					<!-- Features start -->
-					<div class="col-sm-6 col-md-3 col-lg-3">
-
-						<div class="features-item">
-							<div class="client-logo">
-								<img src="assets/images/logos/chosp.png" alt="">
-							</div>
-							<h3 class="features-title font-alt">Chinese Hospital</h3>
-						</div>
-
-					</div>
-					<!-- Features end -->
-
-					<!-- Features start -->
-					<div class="col-sm-6 col-md-3 col-lg-3">
-
-						<div class="features-item">
-							<div class="client-logo">
-								<img src="assets/images/logos/stanford.png" alt="">
-							</div>
-							<h3 class="features-title font-alt">Stanford University</h3>
-						</div>
-
-					</div>
-					<!-- Features end -->
-
-					<!-- Features start -->
-					<div class="col-sm-6 col-md-3 col-lg-3">
-
-						<div class="features-item">
-							<div class="client-logo">
-								<img src="assets/images/logos/sfo.png" alt="">
-							</div>
-							<h3 class="features-title font-alt">San Francisco <br />International Airport</h3>
-						</div>
-
-					</div>
-					<!-- Features end -->
-
-				</div><!-- .row -->
-
-			</div><!-- .container -->
-		</section>
-		<!-- Features end -->
-
-
-		<!-- Map start -->
-		<!--section id="map-section">
-			<div id="map"></div>
-		</section--!>
-		<!-- Map end -->
-
-		<!-- Widgets start -->
+				<!-- Widgets start -->
 		<div class="module-small bg-dark" id="contact">
 			<div class="container">
 	
-				<div class="row">
-	
+				<div class="row" style="margin-bottom: 40px">
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<div id="instafeed"></div>
+					</div>
+				</div>
+	<div class="row">
 					<div class="col-sm-3">
 	
 						<!-- Widget start -->
@@ -568,11 +376,12 @@
 				<div class="row">
 	
 					<div class="col-sm-6">
-						<p class="copyright font-alt">© 2015 <a href="index.html">MEI Architects</a>, All Rights Reserved.</p>
+						<p class="copyright font-alt">© 2015-2019 <a href="index.html">MEI Architects</a>, All Rights Reserved.</p>
 					</div>
 	
 					<div class="col-sm-6">
 						<div class="footer-social-links">
+							<a href="https://www.instagram.com/mei_architects/" target="new"><i class="fa fa-instagram"></i></a>
 							<a href="https://twitter.com/MEIArchitects/" target="new"><i class="fa fa-twitter"></i></a>
 							<a href="http://www.linkedin.com/company/mei-architects" target="new"><i class="fa fa-linkedin"></i></a>
 						</div>
@@ -606,6 +415,22 @@
 	<script src="assets/js/wow.min.js"></script><!-- This handles the smooth scrolling and the homepage map -->
 	<script src="assets/js/custom.js"></script>
 
+	<script>
+
+// Generated by CoffeeScript 1.9.3
+(function(){var e;e=function(){function e(e,t){var n,r;this.options={target:"instafeed",get:"popular",resolution:"thumbnail",sortBy:"none",links:!0,mock:!1,useHttp:!1};if(typeof e=="object")for(n in e)r=e[n],this.options[n]=r;this.context=t!=null?t:this,this.unique=this._genKey()}return e.prototype.hasNext=function(){return typeof this.context.nextUrl=="string"&&this.context.nextUrl.length>0},e.prototype.next=function(){return this.hasNext()?this.run(this.context.nextUrl):!1},e.prototype.run=function(t){var n,r,i;if(typeof this.options.clientId!="string"&&typeof this.options.accessToken!="string")throw new Error("Missing clientId or accessToken.");if(typeof this.options.accessToken!="string"&&typeof this.options.clientId!="string")throw new Error("Missing clientId or accessToken.");return this.options.before!=null&&typeof this.options.before=="function"&&this.options.before.call(this),typeof document!="undefined"&&document!==null&&(i=document.createElement("script"),i.id="instafeed-fetcher",i.src=t||this._buildUrl(),n=document.getElementsByTagName("head"),n[0].appendChild(i),r="instafeedCache"+this.unique,window[r]=new e(this.options,this),window[r].unique=this.unique),!0},e.prototype.parse=function(e){var t,n,r,i,s,o,u,a,f,l,c,h,p,d,v,m,g,y,b,w,E,S,x,T,N,C,k,L,A,O,M,_,D;if(typeof e!="object"){if(this.options.error!=null&&typeof this.options.error=="function")return this.options.error.call(this,"Invalid JSON data"),!1;throw new Error("Invalid JSON response")}if(e.meta.code!==200){if(this.options.error!=null&&typeof this.options.error=="function")return this.options.error.call(this,e.meta.error_message),!1;throw new Error("Error from Instagram: "+e.meta.error_message)}if(e.data.length===0){if(this.options.error!=null&&typeof this.options.error=="function")return this.options.error.call(this,"No images were returned from Instagram"),!1;throw new Error("No images were returned from Instagram")}this.options.success!=null&&typeof this.options.success=="function"&&this.options.success.call(this,e),this.context.nextUrl="",e.pagination!=null&&(this.context.nextUrl=e.pagination.next_url);if(this.options.sortBy!=="none"){this.options.sortBy==="random"?M=["","random"]:M=this.options.sortBy.split("-"),O=M[0]==="least"?!0:!1;switch(M[1]){case"random":e.data.sort(function(){return.5-Math.random()});break;case"recent":e.data=this._sortBy(e.data,"created_time",O);break;case"liked":e.data=this._sortBy(e.data,"likes.count",O);break;case"commented":e.data=this._sortBy(e.data,"comments.count",O);break;default:throw new Error("Invalid option for sortBy: '"+this.options.sortBy+"'.")}}if(typeof document!="undefined"&&document!==null&&this.options.mock===!1){m=e.data,A=parseInt(this.options.limit,10),this.options.limit!=null&&m.length>A&&(m=m.slice(0,A)),u=document.createDocumentFragment(),this.options.filter!=null&&typeof this.options.filter=="function"&&(m=this._filter(m,this.options.filter));if(this.options.template!=null&&typeof this.options.template=="string"){f="",d="",w="",D=document.createElement("div");for(c=0,N=m.length;c<N;c++){h=m[c],p=h.images[this.options.resolution];if(typeof p!="object")throw o="No image found for resolution: "+this.options.resolution+".",new Error(o);E=p.width,y=p.height,b="square",E>y&&(b="landscape"),E<y&&(b="portrait"),v=p.url,l=window.location.protocol.indexOf("http")>=0,l&&!this.options.useHttp&&(v=v.replace(/https?:\/\//,"//")),d=this._makeTemplate(this.options.template,{model:h,id:h.id,link:h.link,type:h.type,image:v,width:E,height:y,orientation:b,caption:this._getObjectProperty(h,"caption.text"),likes:h.likes.count,comments:h.comments.count,location:this._getObjectProperty(h,"location.name")}),f+=d}D.innerHTML=f,i=[],r=0,n=D.childNodes.length;while(r<n)i.push(D.childNodes[r]),r+=1;for(x=0,C=i.length;x<C;x++)L=i[x],u.appendChild(L)}else for(T=0,k=m.length;T<k;T++){h=m[T],g=document.createElement("img"),p=h.images[this.options.resolution];if(typeof p!="object")throw o="No image found for resolution: "+this.options.resolution+".",new Error(o);v=p.url,l=window.location.protocol.indexOf("http")>=0,l&&!this.options.useHttp&&(v=v.replace(/https?:\/\//,"//")),g.src=v,this.options.links===!0?(t=document.createElement("a"),t.href=h.link,t.appendChild(g),u.appendChild(t)):u.appendChild(g)}_=this.options.target,typeof _=="string"&&(_=document.getElementById(_));if(_==null)throw o='No element with id="'+this.options.target+'" on page.',new Error(o);_.appendChild(u),a=document.getElementsByTagName("head")[0],a.removeChild(document.getElementById("instafeed-fetcher")),S="instafeedCache"+this.unique,window[S]=void 0;try{delete window[S]}catch(P){s=P}}return this.options.after!=null&&typeof this.options.after=="function"&&this.options.after.call(this),!0},e.prototype._buildUrl=function(){var e,t,n;e="https://api.instagram.com/v1";switch(this.options.get){case"popular":t="media/popular";break;case"tagged":if(!this.options.tagName)throw new Error("No tag name specified. Use the 'tagName' option.");t="tags/"+this.options.tagName+"/media/recent";break;case"location":if(!this.options.locationId)throw new Error("No location specified. Use the 'locationId' option.");t="locations/"+this.options.locationId+"/media/recent";break;case"user":if(!this.options.userId)throw new Error("No user specified. Use the 'userId' option.");t="users/"+this.options.userId+"/media/recent";break;default:throw new Error("Invalid option for get: '"+this.options.get+"'.")}return n=e+"/"+t,this.options.accessToken!=null?n+="?access_token="+this.options.accessToken:n+="?client_id="+this.options.clientId,this.options.limit!=null&&(n+="&count="+this.options.limit),n+="&callback=instafeedCache"+this.unique+".parse",n},e.prototype._genKey=function(){var e;return e=function(){return((1+Math.random())*65536|0).toString(16).substring(1)},""+e()+e()+e()+e()},e.prototype._makeTemplate=function(e,t){var n,r,i,s,o;r=/(?:\{{2})([\w\[\]\.]+)(?:\}{2})/,n=e;while(r.test(n))s=n.match(r)[1],o=(i=this._getObjectProperty(t,s))!=null?i:"",n=n.replace(r,function(){return""+o});return n},e.prototype._getObjectProperty=function(e,t){var n,r;t=t.replace(/\[(\w+)\]/g,".$1"),r=t.split(".");while(r.length){n=r.shift();if(!(e!=null&&n in e))return null;e=e[n]}return e},e.prototype._sortBy=function(e,t,n){var r;return r=function(e,r){var i,s;return i=this._getObjectProperty(e,t),s=this._getObjectProperty(r,t),n?i>s?1:-1:i<s?1:-1},e.sort(r.bind(this)),e},e.prototype._filter=function(e,t){var n,r,i,s,o;n=[],r=function(e){if(t(e))return n.push(e)};for(i=0,o=e.length;i<o;i++)s=e[i],r(s);return n},e}(),function(e,t){return typeof define=="function"&&define.amd?define([],t):typeof module=="object"&&module.exports?module.exports=t():e.Instafeed=t()}(this,function(){return e})}).call(this);
+
+</script>
+<script>
+    var feed = new Instafeed({
+      get: 'user',
+      userId: "9380834871",
+      accessToken: "9380834871.1677ed0.14c0e083ef8e4efba31878a0f96a7aea",
+    });
+    feed.run();
+  </script>
+
+
 <!-- Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -616,6 +441,8 @@
   ga('create', 'UA-51886722-1', 'auto');
   ga('send', 'pageview');
 </script>
+
+
 
 
 </body>
